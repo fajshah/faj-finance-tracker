@@ -1,0 +1,113 @@
+{
+    "transactions": [
+        {
+            "date": "2025-11-26",
+            "type": "expense",
+            "category_source": "Shopping",
+            "description": "luckyone mall",
+            "amount": 3000000
+        },
+        {
+            "date": "2025-11-10",
+            "type": "income",
+            "category_source": "Business",
+            "description": "house hold online business",
+            "amount": 5000000
+        },
+        {
+            "date": "2025-11-15",
+            "type": "income",
+            "category_source": "Freelance",
+            "description": "website making",
+            "amount": 5000000
+        },
+        {
+            "date": "2025-11-16,expense",
+            "type": "Bills",
+            "category_source": "ssgc ",
+            "description": " k.e",
+            "amount": 2050
+        },
+        {
+            "date": "2025-11-10",
+            "type": "income",
+            "category_source": "Business",
+            "description": "online business",
+            "amount": 5000000
+        },
+        {
+            "date": "2025-11-15",
+            "type": "expense",
+            "category_source": "Health",
+            "description": "hospital",
+            "amount": 1250
+        },
+        {
+            "date": "2025-11-01",
+            "type": "income",
+            "category_source": "Salary",
+            "description": "private job",
+            "amount": 5000000
+        },
+        {
+            "date": "2025-11-10",
+            "type": "expense",
+            "category_source": "Bills",
+            "description": "k.e",
+            "amount": 3000000
+        },
+        {
+            "date": "2025-10-01",
+            "type": "income",
+            "category_source": "Salary",
+            "description": "online job",
+            "amount": 4000000
+        },
+        {
+            "date": "2025-10-11",
+            "type": "expense",
+            "category_source": "Transport",
+            "description": "bus fear",
+            "amount": 150000
+        },
+        {
+            "date": "2025-10-18",
+            "type": "expense",
+            "category_source": "Food",
+            "description": "rashid foods",
+            "amount": 1000000
+        },
+        {
+            "date": "2025-11-18,expense,Entertainment",
+            "type": "for picnic",
+            "category_source": "party",
+            "description": "others way",
+            "amount": 6000000
+        },
+        {
+            "date": "2025-11-01",
+            "type": "income",
+            "category_source": "Business",
+            "description": "online",
+            "amount": 5000000
+        }
+    ],
+    "budgets": [
+        {
+            "category": "Shopping",
+            "amount": 2000000
+        },
+        {
+            "category": "Food",
+            "amount": 1500000
+        },
+        {
+            "category": "Transport",
+            "amount": 300000
+        },
+        {
+            "category": "Entertainment",
+            "amount": 1500000
+        }
+    ]
+}

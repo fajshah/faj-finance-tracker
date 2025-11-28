@@ -1,0 +1,2 @@
+2025-11-01,income,Business,online work,5000000
+2025-11-15,expense,Health,for medicine,1500000
