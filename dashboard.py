@@ -1,3 +1,5 @@
+import sys
+sys.path.insert(0, '.')
 import streamlit as st
 import pandas as pd
 from datetime import datetime
