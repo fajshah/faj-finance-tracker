@@ -1,4 +1,4 @@
-Food,200000
+Food,1000000
 Transport,500000
 Shopping,1000000
 Bills,2000000

@@ -14,3 +14,9 @@
 2025-12-01,income,Business,online,2000000
 2025-12-01,expense,Bills,k.e,2000000
 2025-12-01,expense,Food,mandi,500000
+2025-12-01,expense,Food,party,3000000
+2025-12-01,expense,Food,party,3000000
+2025-12-01,income,Salary,monthly salary,5000000
+2025-12-01,income,Salary,monthly salary,5000000
+2025-12-01,expense,Food,party,2000000
+2025-12-01,expense,Food,party,2000000
