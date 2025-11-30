@@ -22,10 +22,10 @@
             "amount": 5000000
         },
         {
-            "date": "2025-11-16,expense",
-            "type": "Bills",
-            "category_source": "ssgc ",
-            "description": " k.e",
+            "date": "2025-11-16",
+            "type": "expense",
+            "category_source": "Bills",
+            "description": "ssgc k.e",
             "amount": 2050
         },
         {
@@ -78,10 +78,10 @@
             "amount": 1000000
         },
         {
-            "date": "2025-11-18,expense,Entertainment",
-            "type": "for picnic",
-            "category_source": "party",
-            "description": "others way",
+            "date": "2025-11-18",
+            "type": "expense",
+            "category_source": "Entertainment",
+            "description": " for picnic party others way",
             "amount": 6000000
         },
         {
@@ -90,12 +90,40 @@
             "category_source": "Business",
             "description": "online",
             "amount": 5000000
+        },
+        {
+            "date": "2025-11-01",
+            "type": "income",
+            "category_source": "Business",
+            "description": "online",
+            "amount": 50000000
+        },
+        {
+            "date": "2025-11-02",
+            "type": "income",
+            "category_source": "Investment",
+            "description": "shoping",
+            "amount": 1500000
+        },
+        {
+            "date": "2025-11-05",
+            "type": "expense",
+            "category_source": "Food",
+            "description": "kababjees",
+            "amount": 300000
+        },
+        {
+            "date": "2025-11-10",
+            "type": "expense",
+            "category_source": "Shopping",
+            "description": "luckyone",
+            "amount": 1000000
         }
     ],
     "budgets": [
         {
             "category": "Shopping",
-            "amount": 2000000
+            "amount": 300000
         },
         {
             "category": "Food",

@@ -1,2 +1,4 @@
-2025-11-01,income,Business,online work,5000000
-2025-11-15,expense,Health,for medicine,1500000
+2025-11-30,income,Salary,monthly salary,50000000
+2025-11-30,income,Salary,monthly salary,50000000
+2025-11-30,income,Salary,monthly salary,49999998
+2025-11-30,expense,Food,kababjees,1500000

@@ -1,2 +1,5 @@
-Health,200000
-Food,200000
+Food,500000
+Transport,300000
+Shopping,600000
+Bills,2000000
+Health,500000
