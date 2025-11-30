@@ -2,3 +2,15 @@
 2025-11-30,income,Salary,monthly salary,50000000
 2025-11-30,income,Salary,monthly salary,49999998
 2025-11-30,expense,Food,kababjees,1500000
+2025-12-01,income,Salary,monthly salary,5000000
+2025-12-01,income,Business,online,2000000
+2025-12-01,income,Business,online,2000000
+2025-12-01,expense,Bills,k.e,1500000
+2025-12-01,expense,Food,kababjees,500000
+2025-12-01,expense,Transport,bus fear,300000
+2025-12-01,expense,Transport,bus fear,300000
+2025-12-01,expense,Shopping,luckyone,600000
+2025-12-01,income,Salary,monthly salary,50000000
+2025-12-01,income,Business,online,2000000
+2025-12-01,expense,Bills,k.e,2000000
+2025-12-01,expense,Food,mandi,500000
