@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 from features.smart_assistant import smart_assistant
-import matplotlib.pyplot as plt
+import plotly.express as px
 from features.data_management import data_management
 
 # --- Page Configuration ---
@@ -401,17 +401,16 @@ def main():
 
                 expenses_df = transactions_df[
                     (transactions_df['type'] == 'expense') &
-                    (transactions_df['date'].dt.to_pydatetime() >= current_month_start)
+                    (transactions_df['date'].dt.month == now.month) &
+                    (transactions_df['date'].dt.year == now.year)
                 ]
 
                 if not expenses_df.empty:
                     spending_by_category = expenses_df.groupby('category')['amount'].sum()
                     
                     # Pie chart
-                    fig, ax = plt.subplots()
-                    ax.pie(spending_by_category, labels=spending_by_category.index, autopct='%1.1f%%', startangle=90)
-                    ax.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
-                    st.pyplot(fig)
+                    fig = px.pie(spending_by_category, values='amount', names=spending_by_category.index, title='Spending by Category')
+                    st.plotly_chart(fig)
 
                     # Top 3 categories
                     top_categories = spending_by_category.nlargest(3)
@@ -439,7 +438,8 @@ def main():
 
                 income_df = transactions_df[
                     (transactions_df['type'] == 'income') &
-                    (transactions_df['date'].dt.to_pydatetime() >= current_month_start)
+                    (transactions_df['date'].dt.month == now.month) &
+                    (transactions_df['date'].dt.year == now.year)
                 ]
 
                 if not income_df.empty:
@@ -465,7 +465,8 @@ def main():
                 transactions_df['date'] = pd.to_datetime(transactions_df['date'])
 
                 monthly_transactions = transactions_df[
-                    transactions_df['date'].dt.to_pydatetime() >= current_month_start
+                    (transactions_df['date'].dt.month == now.month) &
+                    (transactions_df['date'].dt.year == now.year)
                 ]
                 
                 total_income = monthly_transactions[monthly_transactions['type'] == 'income']['amount'].sum()
@@ -494,7 +495,8 @@ def main():
                 transactions_df['date'] = pd.to_datetime(transactions_df['date'])
 
                 monthly_transactions_df = transactions_df[
-                    transactions_df['date'].dt.to_pydatetime() >= current_month_start
+                    (transactions_df['date'].dt.month == now.month) &
+                    (transactions_df['date'].dt.year == now.year)
                 ]
                 
                 # The _calculate_budget_adherence_score expects a list of dicts with amounts in cents
