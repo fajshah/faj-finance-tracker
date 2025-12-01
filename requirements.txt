@@ -1,7 +1,5 @@
-questionary>=2.1.1
-rich>=14.2.0
-streamlit>=1.35.0
-pandas>=2.2.2
-matplotlib>=3.0.0
+streamlit==1.51.0
+pandas==2.3.3
 plotly==5.17.0
-
+questionary==2.1.1
+rich==14.2.0
